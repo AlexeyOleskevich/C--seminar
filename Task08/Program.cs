@@ -11,7 +11,7 @@ if (number > 1)
     {
         answer += i + "";
         if (i >= number - 1) break;
-        else answer += ", ";
+        answer += ", ";
     }
 }
 else
