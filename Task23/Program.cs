@@ -10,9 +10,9 @@ Console.Write("Введите целое положительное число: 
 int number = Convert.ToInt32(Console.ReadLine());
 
 if (number < 1) Console.WriteLine("Введённое число не является натуральным");
-else TableSquare(number);
+else TableCube(number);
 
-void TableSquare(int num)
+void TableCube(int num)
 {
     int count = 1;
     while (count <= num)
