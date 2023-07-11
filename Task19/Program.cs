@@ -10,10 +10,7 @@ if (IsFiveDigitNumber(number))
     bool isPalindrome = IsPalindrome(number);
     Console.Write(isPalindrome ? "Да" : "Нет");
 }
-else
-{
-    Console.Write("Введённое число не является пятизначным");
-}
+else Console.Write("Введённое число не является пятизначным");
 
 bool IsPalindrome(int num)
 {

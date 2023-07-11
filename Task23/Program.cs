@@ -19,6 +19,5 @@ void TableSquare(int num)
     {
         Console.WriteLine($"{count} | {count * count * count}");
         count++;
-
     }
 }
