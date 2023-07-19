@@ -3,8 +3,8 @@
 
 
 int size = 5;
-int min = -20;
-int max = 20;
+int min = -5;
+int max = 5;
 double[] array = CreateArrayRndDouble(size, min, max);
 
 PrintArrayDouble(array);
@@ -29,9 +29,7 @@ void PrintArrayDouble(double[] arr)
 
     for (int i = 0; i < arr.Length; i++)
     {
-        double roundElement = Math.Round(arr[i], 2, MidpointRounding.ToZero);
-        Console.Write(roundElement);
-
+        Console.Write(arr[i]);
         if (i == arr.Length - 1) break;
         Console.Write("; ");
     }
