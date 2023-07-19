@@ -46,7 +46,6 @@ double GenerateRandomDouble(int min, int max, int round = 2)
 double GetDifferenceBetweenMaxAndMin(double[] arr)
 {
     double minimum = GetMin(arr), maximum = GetMax(arr);
-
     return maximum - minimum;
 }
 
@@ -68,7 +67,6 @@ double GetMin(double[] arr)
     for (int i = 0; i < arr.Length; i++)
     {
         if (arr[i] < minimum) minimum = arr[i];
-
     }
     return minimum;
 }
