@@ -43,14 +43,10 @@ int GetSumAtOddPosition(int[] arr)
 {
     int sum = 0;
 
-    for (int i = 0; i < arr.Length; i++)
+    for (int i = 1; i < arr.Length; i += 2)
     {
-        if (IsOddNumber(i)) sum += arr[i];
+        sum += arr[i];
     }
     return sum;
 }
 
-bool IsOddNumber(int number)
-{
-    return number % 2 != 0;
-}
